@@ -9,3 +9,54 @@ body{
     padding: 0;
     font-family: Oxygen, sans-serif;
 }
+
+/* Hyperlinks */
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+#navbar{
+    background-color: #F0F3F4;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+
+/* Navbar Logo */
+#navbar-logo{
+    font: 3rem Righteous, cursive;
+    width: 150px;
+    margin: auto auto auto 5px;
+    text-align: center;
+}
+
+/* Navbar Links */
+#navbar-links{
+    font-size: 2rem;
+    width: 150px;
+    margin: auto 15px auto auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* Navbar Link Color */
+#navbar-logo a, #navbar-links a{
+    color: #273746;
+    transition: 0.3s;    
+}
+
+/* Navbar Link Color on Hover */
+#navbar-logo a:hover, #navbar-links a:hover{
+    color: #FF2A00;
+}
+
+/* Main */
+main{
+    margin-top: 100px;
+}
