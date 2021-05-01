@@ -17,7 +17,8 @@ a{
 
 /* Navbar */
 #navbar{
-    background-color: #F0F3F4;
+    background-color: #CFABFF;
+    border-bottom: 2px solid;
     width: 100%;
     height: 100px;
     display: flex;
@@ -53,10 +54,41 @@ a{
 
 /* Navbar Link Color on Hover */
 #navbar-logo a:hover, #navbar-links a:hover{
-    color: #FF2A00;
+    color: #0049FF;
 }
 
-/* Main */
-main{
-    margin-top: 100px;
+/* Welcome Section */
+#welcome-section{
+    background-color: #CAFAFE;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+/* Welcome section division */
+#welcome-section div{
+    background-color: #FC4445;
+    color: #17202A;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid;
+}
+
+/* Hello Paragraph */
+#welcome-hello{
+    font-size: 3rem;
+}
+
+/* Name Title */
+#welcome-name{
+    font: 4rem Righteous, cursive;
+    margin: -5px auto;
+}
+
+/* Intro Paragraph */
+#welcome-intro{
+    font-size: 2rem;
 }
