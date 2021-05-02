@@ -20,7 +20,7 @@ a{
     background-color: #CFABFF;
     border-bottom: 2px solid;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -66,7 +66,7 @@ a{
     justify-content: center;
 }
 
-/* Welcome section division */
+/* Welcome Section division */
 #welcome-section div{
     background-color: #FC4445;
     color: #17202A;
@@ -75,6 +75,7 @@ a{
     padding: 30px;
     text-align: center;
     border: 2px solid;
+    border-radius: 5px;
 }
 
 /* Hello Paragraph */
@@ -91,4 +92,69 @@ a{
 /* Intro Paragraph */
 #welcome-intro{
     font-size: 2rem;
+}
+
+/* About Section */
+#about-section{
+    background-color: #FF652F;
+    color: #272727;
+    border-top: 2px solid;
+    text-align: center;
+}
+
+/* About Section Title */
+#about-title{
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+/* About Section Division */
+#about-div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* About Section Intro */
+#about-intro{
+    background-color: #82E0AA;
+    width: 80%;
+    margin: 5px auto;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+/* About Section Skills */
+#about-skills{
+    background-color: #F5B7B1;
+    width: 80%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+/* About Section Intro Subtitles */
+#about-intro h3, #about-skills h3{
+    font-size: 2rem;
+}
+
+/* About Section Intro Paragraphs */
+#about-intro p, #about-skills p{
+    font-size: 1.5rem;
+}
+
+/* About Section Skills Layout */
+#about-langs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+/* About Section Skills Images */
+.skills-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
