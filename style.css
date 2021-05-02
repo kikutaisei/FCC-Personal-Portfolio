@@ -158,3 +158,52 @@ a{
     height: 100px;
     object-fit: cover;
 }
+
+/* Projects Section */
+#projects{
+    background-color: #E64398;
+    color: #272727;
+    border-top: 2px solid;
+    text-align: center;
+}
+
+/* Projects Section Title */
+#projects-title{
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+/* Projects Section Container */
+#projects-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+/* Projects Section Tile Without Hover */
+.project-tile{
+    background-color: #A1C3D1;
+    border: 3px solid #272727;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+/* Projects Section Tile On Hover */
+.project-tile:hover{
+    background-color: #F0EBF4;
+}
+
+/* Projects Section Images */
+.projects-img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+/* Projects Section Subtitles */
+#projects-container h3{
+    font-size: 2rem;
+    color: #273746;
+}
