@@ -207,3 +207,32 @@ a{
     font-size: 2rem;
     color: #273746;
 }
+
+/* Footer */
+#footer{
+    background-color: #F8E9A1;
+    color: #272727;
+    border-top: 2px solid;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Footer Titile */
+#footer h2{
+    font-size: 3rem;
+}
+
+/* Footer Link Image Without Hover */
+#footer img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+/* Footer Link Image On Hover */
+#footer img:hover{
+    width: 70px;
+    height: 70px;
+    opacity: 0.6;
+}
