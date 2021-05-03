@@ -236,3 +236,112 @@ a{
     height: 70px;
     opacity: 0.6;
 }
+
+ /* Only for tablet and small laptop screen sizes from 1000px width */
+@media only screen and (min-width: 1000px){
+    #navbar-logo{
+        margin: auto auto auto 200px;
+    }
+
+    #navbar-links{
+        margin: auto 200px auto auto;
+    }
+
+    #about-intro{
+        width: 65%;
+        padding: 30px;
+    }
+    
+    #about-skills{
+        width: 65%;
+        padding: 30px;
+    }
+
+    .skills-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    #projects-container{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+    }
+
+    .project-tile{
+        margin: 25px 120px;
+    }
+}
+
+ /* Only for large laptop and bigger screen sizes from 1500px width */
+@media only screen and (min-width: 1500px){
+    #navbar-logo{
+        font-size: 4rem;
+        margin: auto auto auto 300px;
+    }
+
+    #navbar-links{
+        font-size: 3rem;
+        width: 250px;
+        margin: auto 300px auto auto;
+    }
+
+    #welcome-section div{
+        width: 60%;
+    }
+
+    #welcome-hello{
+        font-size: 4rem;
+    }
+
+    #welcome-name{
+        font: 5rem Righteous, cursive;
+        margin: -5px auto;
+    }
+
+    #welcome-intro{
+        font-size: 3rem;
+    }
+
+    #about-title{
+        font-size: 4rem;
+    }
+
+    #about-intro h3, #about-skills h3{
+        font-size: 3rem;
+    }
+    
+    #about-intro p, #about-skills p{
+        font-size: 2.5rem;
+    }
+
+    .skills-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #projects-title{
+        font-size: 4rem;
+    }
+
+    #projects-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .project-tile{
+        margin: 30px;
+    }
+
+    #footer h2{
+        font-size: 4rem;
+    }
+
+    #footer img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #footer img:hover{
+        width: 100px;
+        height: 100px;
+    }
+}
